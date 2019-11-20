@@ -5,14 +5,29 @@
 <title>Hello World in JavaScript</title>
 <style>
 @import url(../mystyle.css);
+
+body {
+	background-color: linen;
+}
+
+h1 {
+	color: maroon;
+	margin-left: 40px;
+}
+
+
+p	{color: purple;}
+
+
 </style>
 </head>
 <body>
 <h1>Hello World in JavaScript</h1>
 <main>
 <p>
-This page contains a message from JavaScript.  If you have a little patience,
-you'll get to see it ;-)
+This page contains a message from JavaScript.	It may have a secret message..
+please wait 5 seconds...
+
 </p>
 </main>
 <footer><a
@@ -28,7 +43,7 @@ https://festores.github.io/itd110/headfirstjs/helloworld.html?profile=css3">
 setTimeout(wakeUpUser, 5000);
 
 function wakeUpUser() {
-    alert("Hello World! - Your friendly embedded JavaScript");
+    alert("you just wasted 5 seconds");
 }
 </script>
 </body>
