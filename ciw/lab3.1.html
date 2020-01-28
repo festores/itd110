@@ -5,12 +5,8 @@
 <title>Optional Lab 3-1</title>
 
 <style>
-p  {
-  border: 2px solid #888888;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 300px;
+h2~p {
+  font-style: italic;
 }
 </style>
 
@@ -19,13 +15,19 @@ p  {
 
 <h1>Heading 1</h1>
 <p>
-The paragraph text following Heading 1 is cut off with an elipsis. 
+The paragraph text following Heading 1 is not affected by the CSS3 h2~p
+selector. 
 </p>
 
 <h2>Heading 2</h2>
-<h3>
-The Heading 3 text following Heading 2 will be wrapped with long words broken, such as supercalifragilisticexpialidocious.  
-</h3>
+<p>
+The paragraph text following Heading 2 is affected and italicized by the
+CSS3 h2~p selector.
+</p>
+
+<footer>
+
+
 
 </body>
 </html>
